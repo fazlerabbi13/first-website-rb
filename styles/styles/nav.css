@@ -13,3 +13,13 @@ nav li a{
 nav li:hover{
     background-color: beige;
 }
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 50px;
+}
+nav li:hover .dropdown{
+    display: block;
+}
